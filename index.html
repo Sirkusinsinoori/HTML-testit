@@ -5,25 +5,50 @@
         <title>Raakaa tekstiä Tabiin</title>
     </head>
     <!-- bodyyn tulee kontenttia-->
-    <body style="background-color:rgb(176, 230, 187);">
-        <h1>Otsikko</h1>
+    <body >
+        <h2>Erilaisia tekstimuokkauksia:</h1>
+        <p>b : <b>Tässä on Bold tekstiä</b> ja tässä normaalia tekstiä</p>
+        <p>strong : <strong>Tässä vahvaa tekstiä</strong></p>
+        <p>i : <i>Italic</i></p>
+        <p>em : <em>Empasized, käytännössä sama kuin italic</em></p>
+        <p>mark : <mark>merkattu teksti</mark></p>
+        <p>small : <small>Pienempi teksti</small></p>
+        <p>del : <del>Poistettu teksti (yliviivattu)</del></p>
+        <p>ins : <ins>Lisätty teksti (Alleviivattu)</ins></p>
+        <p>sub : <sub>tekstitysteksti, esimerkiksi kuvatekstit</sub></p>
+        <p>sup : <sup>Superscript text (ei mitään hajua miksi tämä)</sup></p>
         <hr>
-        <h1 style='text-align:center; background-color:powderblue;'>This is a heading</h1>
-<p style="background-color:tomato;">This is a paragraph.</p>
-        <!-- title="" on tooltip, mikä tulee mouse hover on -efektinä -->
-        <p title="I'm a tooltip" style="color:rgb(255, 230, 0);">Leipätekstiä ipsumlapsum</p>
-        <!-- <a href="Tähän linkki, jonne mennään klikatessa tekstiä">Teksti, josta hyperlinkki aukeaa</a>  -->
-        <br>
-        <!-- Tässä on kommentti. 
-         ctrl + k sitten ctrl + c kommentoi maalatut osuudet ja poistaa myös kommentit ko. riveiltä.
-        se jatkuu kunnes kirjoitetaan.-->
-        <!-- <img src="Tähän kuvan linkki" alt=Tähän korvaava kuva tai teksti. width="100" height="100"> -->
-        <img title="Tämä on'kissa'&quot&quot kuva" src="./images/logo.png">
-
-        <!-- 16.0.2025 W3Schools jääty formatting osioon
-         
-        https://www.w3schools.com/html/html_formatting.asp
-        
-        -->
+        <h2>Tässä alla lainaustekstiblokki (eli useita lauseita)</h2>
+        <blockquote cite="https://www.worldwildlife.org/about">
+            For more than 60 years, WWF has worked to help people and nature thrive.<br>
+            As the world’s leading conservation organization, WWF works in nearly 100 countries.<br>
+            At every level, we collaborate with people around the world to develop and deliver innovative<br>
+            solutions that protect communities, wildlife, and the places in which they live.
+        </blockquote>
+        <hr>
+        <h2>Tässä alla lyhyt lainausteksti</h2>
+        <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+        <p>- paragraafissa p lisäoptio q tekee lainauksen (quote) ja asettaa sen lainausmerkkeihin ( " " )</p>
+        <hr>
+        <h2>Tässä alla lyhenne, jossa mouse hover elementti.</h2>
+        <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+        <p>abbr, eli abbrevation, eli lyhenne. Kun hiiren pitää kyseisen elementin yllä, niin lyhenteen lähde näkyy.</p>
+        <hr>
+        <h2>Osoitetiedot voi kirjoittaa omana elementtinään:</h2>
+        <address>
+            Written by John Doe.<br>
+            Visit us at:<br>
+            Example.com<br>
+            Box 564, Disneyland<br>
+            USA
+        </address>
+        <hr> 
+        <h2>Jos halutaan siteerata teosta, niin siihen voidaan tehdä erikoismerkit:</h2>
+        <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p> 
+        <hr>
+        <h2>Jos halutaan jostain syystä kirjoittaa tekstiä väärinpäin, niin se onnistuu dbo dir="rtl"<br>
+        lisäkäskyllä. (RTL = RightToLeft)</h2> 
+        <bdo dir="rtl">This text will be written from right to left</bdo>
+        <hr>
     </body>
 </html>
