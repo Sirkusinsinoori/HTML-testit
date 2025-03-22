@@ -24,3 +24,21 @@ h1 {
 p {
     color: red;
 }
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:visited {
+color: rgb(113, 113, 113);
+background-color: transparent;
+text-decoration: none;
+}
+
+a:hover {
+color: rgb(213, 130, 130);
+background-color: transparent;
+text-decoration: underline;
+}
